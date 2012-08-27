@@ -1,0 +1,301 @@
+EESchema Schematic File Version 2  date Mon 27 Aug 2012 20:02:06 EST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relays-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "BT Heater Relays"
+Date "27 aug 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4500 4100 0    60   ~ 0
+uC Side
+Text Label 5700 5750 0    60   ~ 0
+-
+Text Label 5700 5250 0    60   ~ 0
++
+Text Label 5700 4750 0    60   ~ 0
+-
+Text Label 5700 4250 0    60   ~ 0
++
+Text Label 5700 3800 0    60   ~ 0
+-
+Text Label 5700 3300 0    60   ~ 0
++
+Text Label 5700 2850 0    60   ~ 0
+-
+Text Label 5700 2350 0    60   ~ 0
++
+$Comp
+L CONN_1 P12
+U 1 1 502FEACF
+P 7400 5600
+F 0 "P12" H 7480 5600 40  0000 L CNN
+F 1 "CONN_1" H 7400 5655 30  0001 C CNN
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P11
+U 1 1 502FEACC
+P 7400 5300
+F 0 "P11" H 7480 5300 40  0000 L CNN
+F 1 "CONN_1" H 7400 5355 30  0001 C CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P10
+U 1 1 502FEACA
+P 7400 4600
+F 0 "P10" H 7480 4600 40  0000 L CNN
+F 1 "CONN_1" H 7400 4655 30  0001 C CNN
+	1    7400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 502FEAC6
+P 7400 4300
+F 0 "P9" H 7480 4300 40  0000 L CNN
+F 1 "CONN_1" H 7400 4355 30  0001 C CNN
+	1    7400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P8
+U 1 1 502FEAC2
+P 7400 3650
+F 0 "P8" H 7480 3650 40  0000 L CNN
+F 1 "CONN_1" H 7400 3705 30  0001 C CNN
+	1    7400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P7
+U 1 1 502FEAC0
+P 7400 3350
+F 0 "P7" H 7480 3350 40  0000 L CNN
+F 1 "CONN_1" H 7400 3405 30  0001 C CNN
+	1    7400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 502FEABB
+P 7400 2400
+F 0 "P5" H 7480 2400 40  0000 L CNN
+F 1 "CONN_1" H 7400 2455 30  0001 C CNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 502FEAB8
+P 7400 2700
+F 0 "P6" H 7480 2700 40  0000 L CNN
+F 1 "CONN_1" H 7400 2755 30  0001 C CNN
+	1    7400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5600 6100 5650
+Wire Wire Line
+	6100 4600 6100 4650
+Connection ~ 5850 5250
+Wire Wire Line
+	5650 5250 6100 5250
+Wire Wire Line
+	5650 5250 5650 5350
+Wire Wire Line
+	5650 5550 5650 5650
+Wire Wire Line
+	5650 5650 6100 5650
+Connection ~ 5850 5650
+Connection ~ 5850 4650
+Wire Wire Line
+	6100 4650 5650 4650
+Wire Wire Line
+	5650 4650 5650 4550
+Wire Wire Line
+	5650 4350 5650 4250
+Wire Wire Line
+	5650 4250 6100 4250
+Connection ~ 5850 4250
+Wire Wire Line
+	6100 3650 6100 3700
+Connection ~ 5850 3300
+Wire Wire Line
+	5650 3300 6100 3300
+Wire Wire Line
+	5650 3300 5650 3400
+Wire Wire Line
+	5650 3600 5650 3700
+Wire Wire Line
+	5650 3700 6100 3700
+Connection ~ 5850 3700
+Connection ~ 5850 2750
+Wire Wire Line
+	5650 2750 6100 2750
+Wire Wire Line
+	5650 2750 5650 2650
+Wire Wire Line
+	6100 2750 6100 2700
+Wire Wire Line
+	6100 2400 6100 2350
+Wire Wire Line
+	5650 2450 5650 2350
+Wire Wire Line
+	5650 2350 6100 2350
+Connection ~ 5850 2350
+Wire Wire Line
+	6100 3300 6100 3350
+Wire Wire Line
+	6100 4250 6100 4300
+Wire Wire Line
+	6100 5250 6100 5300
+$Comp
+L DIODE D4
+U 1 1 502FE2D0
+P 5850 5450
+F 0 "D4" H 5850 5550 40  0000 C CNN
+F 1 "DIODE" H 5850 5350 40  0000 C CNN
+	1    5850 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 502FE2CF
+P 5300 5450
+F 0 "P4" V 5250 5450 40  0000 C CNN
+F 1 "CONN_2" V 5350 5450 40  0000 C CNN
+	1    5300 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 502FE2C8
+P 5300 4450
+F 0 "P3" V 5250 4450 40  0000 C CNN
+F 1 "CONN_2" V 5350 4450 40  0000 C CNN
+	1    5300 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 502FE2C7
+P 5850 4450
+F 0 "D3" H 5850 4550 40  0000 C CNN
+F 1 "DIODE" H 5850 4350 40  0000 C CNN
+	1    5850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 502FE2B2
+P 5850 3500
+F 0 "D2" H 5850 3600 40  0000 C CNN
+F 1 "DIODE" H 5850 3400 40  0000 C CNN
+	1    5850 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 502FE2B1
+P 5300 3500
+F 0 "P2" V 5250 3500 40  0000 C CNN
+F 1 "CONN_2" V 5350 3500 40  0000 C CNN
+	1    5300 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 502FE287
+P 5300 2550
+F 0 "P1" V 5250 2550 40  0000 C CNN
+F 1 "CONN_2" V 5350 2550 40  0000 C CNN
+	1    5300 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 502FE24D
+P 5850 2550
+F 0 "D1" H 5850 2650 40  0000 C CNN
+F 1 "DIODE" H 5850 2450 40  0000 C CNN
+	1    5850 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RELAY RL4
+U 1 1 502FDC03
+P 6700 5450
+F 0 "RL4" H 6400 5750 60  0000 C CNN
+F 1 "RELAY" H 6700 5150 60  0000 C CNN
+	1    6700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY RL3
+U 1 1 502FDBFE
+P 6700 4450
+F 0 "RL3" H 6400 4750 60  0000 C CNN
+F 1 "RELAY" H 6700 4150 60  0000 C CNN
+	1    6700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY RL2
+U 1 1 502FDBF6
+P 6700 3500
+F 0 "RL2" H 6400 3800 60  0000 C CNN
+F 1 "RELAY" H 6700 3200 60  0000 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY RL1
+U 1 1 502FDBF4
+P 6700 2550
+F 0 "RL1" H 6400 2850 60  0000 C CNN
+F 1 "RELAY" H 6700 2250 60  0000 C CNN
+	1    6700 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

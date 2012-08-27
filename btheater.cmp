@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Fri 17 Aug 2012 17:43:36 EST
+
+BeginCmp
+TimeStamp = /502DDC00;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DDBD6;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DF3DA;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /502B848C;
+Reference = IC1;
+ValeurCmp = ATMEGA168PA-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C86C0;
+Reference = IC2;
+ValeurCmp = BT;
+IdModule  = TS34;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C8935;
+Reference = P1;
+ValeurCmp = PWR;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C897D;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C88E0;
+Reference = P3;
+ValeurCmp = BT_HDR;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C899A;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /502C88D4;
+Reference = P5;
+ValeurCmp = BT_HDR;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /502CB67B;
+Reference = P6;
+ValeurCmp = PROG_HDR;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /502B8802;
+Reference = P7;
+ValeurCmp = RELAYS_HDR;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DF02F;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23-btheater;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DF036;
+Reference = Q2;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23-btheater;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DF039;
+Reference = Q3;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23-btheater;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DF03B;
+Reference = Q4;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23-btheater;
+EndCmp
+
+BeginCmp
+TimeStamp = /502DDA1C;
+Reference = U1;
+ValeurCmp = LP2985;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe

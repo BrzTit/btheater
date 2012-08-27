@@ -1,0 +1,149 @@
+# EESchema Netlist Version 1.1 created  Fri 17 Aug 2012 17:43:36 EST
+(
+ ( /502DDC00 SM0805 C1 4.7uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /502DDBD6 SM0805 C2 4.7uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /502DF3DA SM0805 C3 4.7uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /502B848C TQFP32 IC1 ATMEGA168PA-A
+  ( 1 N-000038 )
+  ( 2 N-000036 )
+  ( 3 GND )
+  ( 4 +5V )
+  ( 5 GND )
+  ( 6 +5V )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 N-000022 )
+  ( 10 N-000037 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 N-000003 )
+  ( 16 N-000002 )
+  ( 17 N-000028 )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 N-000004 )
+  ( 30 N-000024 )
+  ( 31 N-000026 )
+  ( 32 N-000027 )
+ )
+ ( /502C86C0 TS34 IC2 BT
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+  ( 12 +5V )
+  ( 13 GND )
+  ( 21 GND )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 N-000033 )
+ )
+ ( /502C8935 SIL-2 P1 PWR
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /502C897D SIL-1 P2 CONN_1
+  ( 1 N-000036 )
+ )
+ ( /502C88E0 SIL-2 P3 BT_HDR
+  ( 1 N-000024 )
+  ( 2 N-000026 )
+ )
+ ( /502C899A SIL-1 P4 CONN_1
+  ( 1 N-000033 )
+ )
+ ( /502C88D4 SIL-2 P5 BT_HDR
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+ )
+ ( /502CB67B pin_array_3x2 P6 PROG_HDR
+  ( 1 N-000002 )
+  ( 2 +5V )
+  ( 3 N-000028 )
+  ( 4 N-000003 )
+  ( 5 N-000004 )
+  ( 6 GND )
+ )
+ ( /502B8802 pin_array_4x2 P7 RELAYS_HDR
+  ( 1 N-000016 )
+  ( 2 +12V )
+  ( 3 N-000034 )
+  ( 4 +12V )
+  ( 5 N-000039 )
+  ( 6 +12V )
+  ( 7 N-000035 )
+  ( 8 +12V )
+ )
+ ( /502DF02F SOT23-btheater Q1 MOSFET_N
+  ( D N-000016 )
+  ( G N-000027 )
+  ( S GND )
+ )
+ ( /502DF036 SOT23-btheater Q2 MOSFET_N
+  ( D N-000034 )
+  ( G N-000038 )
+  ( S GND )
+ )
+ ( /502DF039 SOT23-btheater Q3 MOSFET_N
+  ( D N-000039 )
+  ( G N-000022 )
+  ( S GND )
+ )
+ ( /502DF03B SOT23-btheater Q4 MOSFET_N
+  ( D N-000035 )
+  ( G N-000037 )
+  ( S GND )
+ )
+ ( /502DDA1C SOT23-5 U1 LP2985
+  ( 1 +12V )
+  ( 2 GND )
+  ( 3 +12V )
+  ( 4 ? )
+  ( 5 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component IC2
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$endfootprintlist
+}

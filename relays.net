@@ -1,0 +1,162 @@
+# EESchema Netlist Version 1.1 created  Sun 19 Aug 2012 05:19:56 EST
+(
+ ( /502FEACF $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /502FEACC $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000015 )
+ )
+ ( /502FEACA $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000012 )
+ )
+ ( /502FEAC6 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /502FEAC2 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /502FEAC0 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000011 )
+ )
+ ( /502FEABB $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /502FEAB8 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /502FE2D0 $noname  D4 DIODE {Lib=DIODE}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /502FE2CF $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /502FE2C8 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000004 )
+  (    2 N-000003 )
+ )
+ ( /502FE2C7 $noname  D3 DIODE {Lib=DIODE}
+  (    1 N-000004 )
+  (    2 N-000003 )
+ )
+ ( /502FE2B2 $noname  D2 DIODE {Lib=DIODE}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /502FE2B1 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /502FE287 $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000005 )
+  (    2 N-000016 )
+ )
+ ( /502FE24D $noname  D1 DIODE {Lib=DIODE}
+  (    1 N-000005 )
+  (    2 N-000016 )
+ )
+ ( /502FDC03 $noname  RL4 RELAY {Lib=RELAY}
+  (    1 N-000015 )
+  (    2 N-000006 )
+  (    3 N-000014 )
+  (    5 N-000007 )
+ )
+ ( /502FDBFE $noname  RL3 RELAY {Lib=RELAY}
+  (    1 N-000013 )
+  (    2 N-000003 )
+  (    3 N-000012 )
+  (    5 N-000004 )
+ )
+ ( /502FDBF6 $noname  RL2 RELAY {Lib=RELAY}
+  (    1 N-000011 )
+  (    2 N-000001 )
+  (    3 N-000010 )
+  (    5 N-000002 )
+ )
+ ( /502FDBF4 $noname  RL1 RELAY {Lib=RELAY}
+  (    1 N-000009 )
+  (    2 N-000016 )
+  (    3 N-000008 )
+  (    5 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D4
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ RL2 2
+ P2 2
+ D2 2
+Net 2 "" ""
+ RL2 5
+ D2 1
+ P2 1
+Net 3 "" ""
+ RL3 2
+ P3 2
+ D3 2
+Net 4 "" ""
+ D3 1
+ RL3 5
+ P3 1
+Net 5 "" ""
+ RL1 5
+ P1 1
+ D1 1
+Net 6 "" ""
+ RL4 2
+ D4 2
+ P4 2
+Net 7 "" ""
+ RL4 5
+ D4 1
+ P4 1
+Net 8 "" ""
+ P6 1
+ RL1 3
+Net 9 "" ""
+ P5 1
+ RL1 1
+Net 10 "" ""
+ P8 1
+ RL2 3
+Net 11 "" ""
+ P7 1
+ RL2 1
+Net 12 "" ""
+ P10 1
+ RL3 3
+Net 13 "" ""
+ P9 1
+ RL3 1
+Net 14 "" ""
+ P12 1
+ RL4 3
+Net 15 "" ""
+ P11 1
+ RL4 1
+Net 16 "" ""
+ RL1 2
+ D1 2
+ P1 2
+}
+#End

@@ -1,0 +1,8 @@
+BT Heater is a Bluetooth enabled power board allowing controlling
+individual power sockets remotely. It has timer functionality besides
+being cool and neat.
+
+All the files in BT Heater are licensed under GPLv3. See COPYING for
+full text of the license.
+
+TODO write more README
