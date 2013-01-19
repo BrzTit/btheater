@@ -1,6 +1,6 @@
 /*
  * main.c - BTHeater 1.0
- * Copyright (C) 2012 Mansour <mansour@oxplot.com>
+ * Copyright (C) 2012 Mansour Behabadi <mansour@oxplot.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
